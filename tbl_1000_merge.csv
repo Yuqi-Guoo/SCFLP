@@ -1,4 +1,4 @@
-m,n,p,r,Obj_NewSubmodular_,T(G%)_NewSubmodular,N_NewSubmodular,LPG(%)_NewSubmodular,CT_NewSubmodular,C_NewSubmodular,Obj_ZLP,T(G%)_ZLP,N_ZLP,LPG(%)_ZLP,CT_ZLP,C_ZLP
+m,n,p,r,Obj_B&C+GSF,T(G%)_B&C+GSF,N_B&C+GSF,LPG(%)_B&C+GSF,CT_B&C+GSF,C_B&C+GSF,Obj_B&C+EF,T(G%)_B&C+EF,N_B&C+EF,LPG(%)_B&C+EF,CT_B&C+EF,C_B&C+EF
 500,500,2,2,1358.000,7.7,3,<0.1,5.7,40,1358.000,119.8,0,<0.1,5.8,3
 500,500,2,5,882.851,256.6,28,0.5,251.9,1911,882.851,1153.0,27,0.5,56.2,25
 500,500,2,10,707.142,149.4,22,0.2,146.2,994,707.142,1030.7,14,0.2,52.8,25
