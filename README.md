@@ -63,11 +63,11 @@ The CSV file contains the following columns:
 - **T(G%)**: Total CPU time in seconds. For instances not solved to optimality within the time limit, the optimality gap G% is reported in parentheses, computed as (UB - LB)/UB × 100%, where UB and LB denote the upper bound and lower bound obtained at termination
 - **N**: Number of explored branch-and-bound nodes
 - **LPG(%)**: LP relaxation gap at the root node, defined as (Obj* - Obj_root)/Obj* × 100%, where Obj* is the optimal objective value and Obj_root is the LP relaxation bound at the root node
-- **CT**: CPU time in seconds spent on separating cutting planes
-- **C**: Total number of cutting planes (improved submodular inequalities) added throughout the B&C algorithm
+- **CT**: CPU time in seconds spent on separating cuts
+- **C**: Total number of cuts added throughout the B&C algorithm
 
 ### At the end of the table
 
-- **Ave. row**: Contains summarized average statistics across all instances (marked with "Average" in the m column)
-- **Sol. row**: Contains the total number of instances solved to optimality within the time limit (marked with "Solved" in the m column) 
+- **Ave. row**: Contains summarized average statistics across all instances can be solved by both settings 
+- **Sol. row**: Contains the total number of instances solved to optimality within the time limit 
 
