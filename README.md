@@ -68,6 +68,6 @@ The CSV file contains the following columns:
 
 ### At the end of the table
 
-- **Average row**: Contains summarized average statistics across all instances (marked with "Average" in the m column)
-- **Solved row**: Contains the total number of instances solved to optimality within the time limit (marked with "Solved" in the m column) 
+- **Ave. row**: Contains summarized average statistics across all instances (marked with "Average" in the m column)
+- **Sol. row**: Contains the total number of instances solved to optimality within the time limit (marked with "Solved" in the m column) 
 
