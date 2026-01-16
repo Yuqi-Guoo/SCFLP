@@ -6,7 +6,7 @@
 
 ##### School of Mathematics and Statistics, Beijing Institute of Technology,  Beijing 100081, China
 
-###### chenweikun@bit.edu.cn
+###### guoyuqi@bit.edu.cn
 
 ------
 
@@ -57,25 +57,16 @@ The CSV file contains the following columns:
 - **p**: Number of facilities that the leader can open
 - **r**: Number of facilities that the follower can open
 
-#### B&C+GSF Results (Formulation (GSF) with Improved Submodular Inequalities)
+#### Results
 
-- **Obj_B&C+GSF**: Objective value of the optimal solution (or best incumbent if not solved to optimality)
-- **T(G%)_B&C+GSF**: Total CPU time in seconds. For instances not solved to optimality within the time limit, the optimality gap G% is reported in parentheses, computed as (UB - LB)/UB × 100%, where UB and LB denote the upper bound and lower bound obtained at termination
-- **N_B&C+GSF**: Number of explored branch-and-bound nodes
-- **LPG(%)_B&C+GSF**: LP relaxation gap at the root node, defined as (Obj* - Obj_root)/Obj* × 100%, where Obj* is the optimal objective value and Obj_root is the LP relaxation bound at the root node
-- **CT_B&C+GSF**: CPU time in seconds spent on separating cutting planes
-- **C_B&C+GSF**: Total number of cutting planes (improved submodular inequalities) added throughout the B&C algorithm
+- **Obj**: Objective value of the optimal solution (or best incumbent if not solved to optimality)
+- **T(G%)**: Total CPU time in seconds. For instances not solved to optimality within the time limit, the optimality gap G% is reported in parentheses, computed as (UB - LB)/UB × 100%, where UB and LB denote the upper bound and lower bound obtained at termination
+- **N**: Number of explored branch-and-bound nodes
+- **LPG(%)**: LP relaxation gap at the root node, defined as (Obj* - Obj_root)/Obj* × 100%, where Obj* is the optimal objective value and Obj_root is the LP relaxation bound at the root node
+- **CT**: CPU time in seconds spent on separating cutting planes
+- **C**: Total number of cutting planes (improved submodular inequalities) added throughout the B&C algorithm
 
-#### B&C+EF Results (Extended Formulation (EF))
-
-- **Obj_B&C+EF**: Objective value of the optimal solution (or best incumbent if not solved to optimality)
-- **T(G%)_B&C+EF**: Total CPU time in seconds. For instances not solved to optimality within the time limit, the optimality gap G% is reported in parentheses
-- **N_B&C+EF**: Number of explored branch-and-bound nodes
-- **LPG(%)_B&C+EF**: LP relaxation gap at the root node
-- **CT_B&C+EF**: CPU time in seconds spent on separating cutting planes 
-- **C_B&C+EF**: Total number of cutting planes added throughout the B&C algorithm
-
-### Special Rows
+### At the end of the table
 
 - **Average row**: Contains summarized average statistics across all instances (marked with "Average" in the m column)
 - **Solved row**: Contains the total number of instances solved to optimality within the time limit (marked with "Solved" in the m column) 
