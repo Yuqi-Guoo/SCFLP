@@ -42,7 +42,7 @@ The CSV file contains the following columns:
 - **CT**: CPU time in seconds spent on separating cuts
 - **C**: Total number of cuts added throughout the B&C algorithm
 
-#### At the end of the table
+### At the end of the table
 
 - **Average**: Contains summarized average statistics across all instances that can be solved by both settings 
 - **Solved**: Contains the total number of instances solved to optimality within the time limit of 7200 seconds 
