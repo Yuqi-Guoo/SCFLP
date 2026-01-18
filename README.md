@@ -1,16 +1,14 @@
-## Online Supplement of:
+## Detailed computational results of paper:
 
 # An efficient branch-and-cut approach for the sequential competitive facility location problem under partially binary rule
 
 ##### Yu-Qi Guo，Yan-Ru Wang， Wei-Kun Chen，Yu-Hong Dai
 
-##### School of Mathematics and Statistics, Beijing Institute of Technology,  Beijing 100081, China
-
-###### guoyuqi@bit.edu.cn
+###### [https://arxiv.org/abs/2508.08135](https://arxiv.org/abs/2508.08135)
 
 ------
 
-This online supplement provides tables in CSV format with detailed results of the computational experiments conducted for the paper "An efficient branch-and-cut approach for the sequential competitive facility location problem under partially binary rule".
+This repository provides tables in CSV format with detailed results of the computational experiments conducted for the paper "An efficient branch-and-cut approach for the sequential competitive facility location problem under partially binary rule".
 
 
 
