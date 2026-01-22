@@ -44,6 +44,6 @@ The CSV file contains the following columns:
 
 ### At the end of the table
 
-- **Average**: Contains summarized average statistics across all instances that can be solved by both settings 
+- **Average**: Contains summarized average statistics across all instances that can be solved by at least one setting
 - **Solved**: Contains the total number of instances solved to optimality within the time limit of 7200 seconds 
 
